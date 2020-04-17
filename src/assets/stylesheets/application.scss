@@ -1,0 +1,29 @@
+.reservations{
+  width: 100%;
+  h1 {
+    margin-bottom:30px;
+  }
+}
+
+.movies{
+  width: 100%;
+  .movies__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:30px;
+  }
+  .movies__container{
+    display: flex;
+    .card_container{
+      max-width: 100px;
+    }
+  }
+}
+
+* {
+  font-family: 'Montserrat';
+  button>span{
+    text-transform: none;
+  }
+}
